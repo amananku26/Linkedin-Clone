@@ -1,0 +1,51 @@
+.parentRegister{
+    background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 638px;
+}
+.registerPageNavBar{
+    text-align: center;
+}
+.registerInputBox{
+    height: 460px;
+    width: 500px;
+    background-color: rgb(240, 240, 240);
+    margin-left: 430px;
+}
+.registerPageBottom{
+    background-color: rgb(235, 235, 235);
+    padding: 15px;
+}
+.textBeforeInputBox{
+    text-align: left;
+}
+.RegisterButtonregisterPage{
+    margin-top: 35px;
+    padding: 8px;
+    width: 175px;
+    border: none;
+    background-color: mediumturquoise;
+
+}
+.registerLogin{
+    display: flex;
+}
+.registerLogin > button{
+    margin-left: 125px;
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 7px;
+    background-color: rgb(184, 255, 255);
+}
+.LoginButtonregisterPage{
+    margin-top: 25px;
+    padding: 8px;
+    width: 175px;
+    border: none;
+    background-color: mediumturquoise;
+}
+.registerInputBox >input {
+    width: 85%;
+}

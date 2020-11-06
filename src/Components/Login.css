@@ -1,0 +1,25 @@
+.inputBoxLogin{
+    margin-top: 25px;
+}
+.inputBoxLogin > input {
+    padding: 10px;
+    width: 300px;
+}
+.LoginPageBottom{
+ background-color: white;
+ border-top: 1px solid black;
+ padding: 10px;
+ margin-top: 100px;
+}
+.loginForgotPassword{
+    color:#0073b1;
+    margin-top: 35px;
+}
+.loginInput{
+    padding: 5px;
+    border: none;
+    width: 300px;
+    border-radius: 85px;
+    color: white;
+    background-color: #0073b1;
+}

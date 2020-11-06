@@ -1,0 +1,27 @@
+.parentNavBar{
+    padding: 5px;
+    height: 60px;
+    background-color: var(--cool-gray-80,#283e4a);
+    
+}
+
+.searchInputBoxNavbar{
+    width: 180px;
+    height: 40px;
+    margin-left: 25px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgb(231, 231, 231);
+    margin-bottom: 15px;
+   
+}
+.parentNavBarChild1{
+    float: left;
+}
+.parentNavBarChild1> i {
+    color: rgb(219, 219, 219);
+    margin-left: 40px;
+    font-size: 30px;
+}

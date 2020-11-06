@@ -1,0 +1,26 @@
+.ProfileSectionparent{
+    border: 1px solid grey;
+    background-color: white;
+    margin-left: 80px;
+    padding: 9px;
+}
+.ProfileSectionparent img{
+    margin-top: 30px;
+}
+.ProfileSectionparent1{
+    border: 1px solid grey;
+    background-color: white;
+    margin-left: 80px;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: left;
+}
+.profileimg{
+    position: relative;
+    bottom: 60px;
+    border: 8px solid white;
+}
+.profilename{
+    position: relative;
+    bottom: 40px;
+}

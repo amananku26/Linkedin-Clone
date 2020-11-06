@@ -1,0 +1,41 @@
+.navHomePage{
+    margin-top: 15px;
+}
+.navHomePage>img{
+    float: left;
+    margin-left: 155px;
+}
+
+.HomePageNavJoinNow{
+    margin-left: 470px;
+    color: grey;
+    
+}
+.HomePageNavSignIn{
+   padding: 7px;
+   margin-left: 50px;
+   border: 1px solid  #1550f3;
+   color:#1550f3 ;
+}
+.HomePageBelowNav{
+    margin-top: 50px;
+    display: flex;
+}
+.HomePageBelowNavChild1>h1{
+    float: left;
+    color: #2977c9;
+    font-size: 60px;
+    text-align: left;
+    margin-left: 55px;
+}
+.HomePageBelowNavChild1>.HomePageBelowNavChild1child1>button{
+    margin: 8px;
+    float: left;
+    padding: 8px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(231, 231, 231);
+}
+.HomePageBelowNavChild2 > img {
+    margin-top: 100px;
+}
