@@ -21,7 +21,7 @@ export const getNewsData = () => {
     return (dispatch) => {
       dispatch(newsRequest());
       return axios
-        .get("http://localhost:3000/news")
+        .get("https://linkedinclone-redux.herokuapp.com/news")
         .then((res) => {
           console.log("response success", res.data);
           return dispatch(newsSuccess(res.data));

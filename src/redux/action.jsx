@@ -24,7 +24,7 @@ export const loginfailure = (payload) => ({
 export const getUserData = (payload) => dispatch => {
     // console.log(payload);
     dispatch(loginRequest())
-    return axios.get("http://localhost:3000/users")
+    return axios.get("https://linkedinclone-redux.herokuapp.com/users")
     .then(res=> {
         res.data.filter((item)=> {
             if(item.username == payload.username && item.password==payload.password){

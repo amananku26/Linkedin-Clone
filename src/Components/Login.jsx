@@ -16,8 +16,8 @@ class Login extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      username: "",
-      password: ""
+      username: "admin",
+      password: "admin"
     };
   }
   handleChange = (e) => {
@@ -44,9 +44,11 @@ class Login extends Component {
       <div className="parentLogin">
         <div>
           <img height="25px" style={{ marginTop: "105px" }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/1280px-LinkedIn_Logo.svg.png" alt="linkedinLogo" />
+          
           <h2 style={{ marginTop: "15px" }}>Welcome Back</h2>
           <span style={{ opacity: "0.5" }}>Don't miss your next opportunity. Sign in to stay updated on your professional world.</span>
           <div className="inputBoxLogin">
+            
             <input
               name="username"
               placeholder="Email Or Phone"
